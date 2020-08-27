@@ -1,0 +1,31 @@
+{
+  "name": "alpine-tailwind-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o tailwind/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o tailwind/build/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cksachdev/alpine-tailwind-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cksachdev/alpine-tailwind-example/issues"
+  },
+  "homepage": "https://github.com/cksachdev/alpine-tailwind-example#readme",
+  "dependencies": {
+    "alpinejs": "^2.6.0",
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.7.5"
+  },
+  "devDependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss-plugins": "^0.3.0"
+  }
+}
